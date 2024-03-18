@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ItaliaPizzaModelStoreContainer" CdmEntityContainer="ItaliaPizzaEntities">
+    <EntitySetMapping Name="Pedidos">
+      <EntityTypeMapping TypeName="ItaliaPizzaModel.Pedidos">
+        <MappingFragment StoreEntitySet="Pedidos">
+          <ScalarProperty Name="idPedidos" ColumnName="idPedidos" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="idUsuarios" ColumnName="idUsuarios" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="ItaliaPizzaModel.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="idProductos" ColumnName="idProductos" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ItaliaPizzaModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="idUsuarios" ColumnName="idUsuarios" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellidoPaterno" ColumnName="apellidoPaterno" />
+          <ScalarProperty Name="apellidoMaterno" ColumnName="apellidoMaterno" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="rol" ColumnName="rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Detalle_Pedido">
+      <EntityTypeMapping TypeName="ItaliaPizzaModel.Detalle_Pedido">
+        <MappingFragment StoreEntitySet="Detalle_Pedido">
+          <ScalarProperty Name="nombreDelCliente" ColumnName="nombreDelCliente" />
+          <ScalarProperty Name="domicilioDeEntrega" ColumnName="domicilioDeEntrega" />
+          <ScalarProperty Name="tipoDePedido" ColumnName="tipoDePedido" />
+          <ScalarProperty Name="estadoDelPedido" ColumnName="estadoDelPedido" />
+          <ScalarProperty Name="idPedidos" ColumnName="idPedidos" />
+          <ScalarProperty Name="idProductos" ColumnName="idProductos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
