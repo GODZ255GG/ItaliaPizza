@@ -4,3 +4,9 @@ C:\Users\reneu\Videos\ItaliaPizza\Security\obj\Debug\Security.csproj.AssemblyRef
 C:\Users\reneu\Videos\ItaliaPizza\Security\obj\Debug\Security.csproj.CoreCompileInputs.cache
 C:\Users\reneu\Videos\ItaliaPizza\Security\obj\Debug\Security.dll
 C:\Users\reneu\Videos\ItaliaPizza\Security\obj\Debug\Security.pdb
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\bin\Debug\Security.dll
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\bin\Debug\Security.pdb
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\obj\Debug\Security.csproj.AssemblyReference.cache
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\obj\Debug\Security.csproj.CoreCompileInputs.cache
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\obj\Debug\Security.dll
+C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\Security\obj\Debug\Security.pdb

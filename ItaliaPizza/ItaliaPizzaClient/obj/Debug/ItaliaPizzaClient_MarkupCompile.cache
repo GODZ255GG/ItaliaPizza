@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\reneu\Videos\git\ItaliaPizza\ItaliaPizza\ItaliaPizzaClient\App.xaml
-3-887429671
+6-51640692
 
-8944427326
+11-1865034597
 20-1078360267
-Configuracion.xaml;MainWindow.xaml;VentanaPrincipal.xaml;
+Configuracion.xaml;Inventario.xaml;MainWindow.xaml;Productos.xaml;RegistrarProducto.xaml;VentanaPrincipal.xaml;
 
-True
+False
 

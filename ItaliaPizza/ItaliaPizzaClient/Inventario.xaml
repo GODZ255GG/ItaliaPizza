@@ -38,7 +38,7 @@
     <ContentControl x:Name="contentControl">
         <Grid>
             <Rectangle HorizontalAlignment="Left" Height="834"  VerticalAlignment="Top" Width="960" Fill="White"/>
-            <Button Content="Productos" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="225" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
+            <Button x:Name="btnProductos" Content="Productos" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="225" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold" Click="BtnProductos_Click"/>
 
         </Grid>
     </ContentControl>
