@@ -16,18 +16,24 @@ using System.Windows.Shapes;
 namespace ItaliaPizzaClient
 {
     /// <summary>
-    /// Lógica de interacción para Inventario.xaml
+    /// Lógica de interacción para Productos.xaml
     /// </summary>
-    public partial class Inventario : UserControl
+    public partial class Productos : UserControl
     {
-        public Inventario()
+        public Productos()
         {
             InitializeComponent();
         }
 
-        private void BtnProductos_Click(object sender, RoutedEventArgs e)
+        private void ImgRegresar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            contentControl.Content = new Productos();
+            contentControl.Content = new Inventario();
+        }
+
+        private void BtnRegistrarProducto_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrarProducto registrar = new RegistrarProducto();
+            registrar.Show();
         }
     }
 }
