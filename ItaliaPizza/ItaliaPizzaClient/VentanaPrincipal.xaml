@@ -37,21 +37,33 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Rectangle HorizontalAlignment="Left" Height="818" VerticalAlignment="Center" Width="314" Fill="#FFD9D9D9" RadiusX="50" RadiusY="50" Margin="-37,0,0,0"/>
-        <Label Content="Italia Pizza" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Segoe UI Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Button x:Name="btnUsuarios" Content="       Usuarios" HorizontalAlignment="Left" Margin="28,309,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
-        <Image Source="/image/foto.png" HorizontalAlignment="Left" Height="133" Margin="72,78,0,0" VerticalAlignment="Top" Width="133"/>
-        <Image Source="/image/User.png" HorizontalAlignment="Left" Height="50" Margin="33,312,0,0" VerticalAlignment="Top" Width="50"/>
-        <Label x:Name="lbNombreUsuario"  Content="Hola Juan" HorizontalAlignment="Left" Margin="21,216,0,0" VerticalAlignment="Top" FontSize="30" Width="229" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button x:Name="btnPedidos" Content="       Pedidos" HorizontalAlignment="Left" Margin="29,406,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold" RenderTransformOrigin="0.391,0.553"/>
-        <Button x:Name="btnInventario" Content="      Inventario" HorizontalAlignment="Left" Margin="28,500,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
-        <Button x:Name="btnRecetas" Content="       Recetas" HorizontalAlignment="Left" Margin="28,597,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
-        <Button x:Name="btnFinanzas" Content="       Finanzas" HorizontalAlignment="Left" Margin="27,690,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
-        <Image Source="/Image/Box.png" HorizontalAlignment="Left" Height="50" Margin="33,408,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Source="/Image/Boxes.png" HorizontalAlignment="Left" Height="50" Margin="33,503,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Source="/Image/Cookbook.png" HorizontalAlignment="Left" Height="50" Margin="33,600,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image Source="/Image/Money Bag.png" HorizontalAlignment="Left" Height="50" Margin="33,693,0,0" VerticalAlignment="Top" Width="50"/>
-        <Image x:Name="imgConfiguracion" Source="/Image/Settings.png" HorizontalAlignment="Left" Height="50" Margin="1161,17,0,0" VerticalAlignment="Top" Width="50" MouseLeftButtonDown="ImgConfiguracion_MouseLeftButtonDown"/>
-        <Image Source="/Image/logo.png" HorizontalAlignment="Left" Height="704" Margin="373,66,0,0" VerticalAlignment="Top" Width="725"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="64*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Margin="0,0,0,0">
+            <Rectangle HorizontalAlignment="Left" Height="818" VerticalAlignment="Center" Width="314" Fill="#FFD9D9D9" RadiusX="50" RadiusY="50" Margin="-37,0,0,0"/>
+            <Label Content="Italia Pizza" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" FontSize="40" FontFamily="Segoe UI Black" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Button x:Name="btnUsuarios" Content="       Usuarios" HorizontalAlignment="Left" Margin="28,309,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold" Click="BtnUsuarios_Click"/>
+            <Image Source="/image/foto.png" HorizontalAlignment="Left" Height="133" Margin="72,78,0,0" VerticalAlignment="Top" Width="133"/>
+            <Image Source="/image/User.png" HorizontalAlignment="Left" Height="50" Margin="33,312,0,0" VerticalAlignment="Top" Width="50"/>
+            <Label x:Name="lbNombreUsuario"  Content="Hola Juan" HorizontalAlignment="Left" Margin="21,216,0,0" VerticalAlignment="Top" FontSize="30" Width="229" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button x:Name="btnPedidos" Content="       Pedidos" HorizontalAlignment="Left" Margin="29,406,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold" RenderTransformOrigin="0.391,0.553"/>
+            <Button x:Name="btnInventario" Content="      Inventario" HorizontalAlignment="Left" Margin="28,500,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold" Click="BtnInventario_Click"/>
+            <Button x:Name="btnRecetas" Content="       Recetas" HorizontalAlignment="Left" Margin="28,597,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
+            <Button x:Name="btnFinanzas" Content="       Finanzas" HorizontalAlignment="Left" Margin="27,690,0,0" VerticalAlignment="Top" Height="54" Width="219" Foreground="White" Background="#7CA886" FontSize="30" BorderThickness="0,0,0,0" Padding="10,10,10,10" UseLayoutRounding="True" ScrollViewer.CanContentScroll="True" FontWeight="Bold"/>
+            <Image Source="/Image/Box.png" HorizontalAlignment="Left" Height="50" Margin="33,408,0,0" VerticalAlignment="Top" Width="50"/>
+            <Image Source="/Image/Boxes.png" HorizontalAlignment="Left" Height="50" Margin="33,503,0,0" VerticalAlignment="Top" Width="50"/>
+            <Image Source="/Image/Cookbook.png" HorizontalAlignment="Left" Height="50" Margin="33,600,0,0" VerticalAlignment="Top" Width="50"/>
+            <Image Source="/Image/Money Bag.png" HorizontalAlignment="Left" Height="50" Margin="33,693,0,0" VerticalAlignment="Top" Width="50"/>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <ContentControl x:Name="contentControl">
+                <Image Source="/Image/logo.png" HorizontalAlignment="Center" Height="740" VerticalAlignment="Center" Width="740"/>
+            </ContentControl>
+
+        </Grid>
     </Grid>
 </Window>

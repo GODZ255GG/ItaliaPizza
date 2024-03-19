@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -11,6 +12,8 @@ namespace Services
     public interface IProductManager
     {
         [OperationContract]
-        bool RegistrarProducto();
+        bool RegistrarProducto(Productos producto);
+        [OperationContract]
+        bool ProductoYaRegistrado(string nombre);
     }
 }
