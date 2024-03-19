@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Autentificacion.cs" />
+    <Compile Include="Productos.cs" />
+    <Compile Include="RegistrarProducto.cs" />
     <Compile Include="Usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

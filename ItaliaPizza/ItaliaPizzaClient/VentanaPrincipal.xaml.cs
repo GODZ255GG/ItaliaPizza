@@ -35,5 +35,15 @@ namespace ItaliaPizzaClient
             Configuracion confi = new Configuracion();
             confi.Show();
         }
+
+        private void BtnUsuarios_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnInventario_Click(object sender, RoutedEventArgs e)
+        {
+            contentControl.Content = new Inventario();
+        }
     }
 }
